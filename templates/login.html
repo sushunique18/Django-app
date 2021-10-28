@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/static/login.css">
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="login.html" class="logo">Logo</a>
+    </header>
+    
+
+    <main>
+        <!-- Content changes here -->
+        <div class="container">
+            <h2>Login</h2>
+                <form action="index.html" class="logo" method='post' action ='/index'>
+                    {% csrf_token %}
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="" placeholder="username">
+                    
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="" placeholder="password">
+                    
+                    <button type="submit">Login</button>
+                </form>
+                <hr>
+            <p></a> </p>
+        </div>
+        <!-- Content changes end here -->
+    </main>
+</body>
+</html>
